@@ -1,0 +1,39 @@
+{
+    "name": "bosarapp",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev --turbopack",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "setup": "chmod +x scripts/setup-env.sh && ./scripts/setup-env.sh",
+        "type-check": "tsc --noEmit",
+        "build:analyze": "ANALYZE=true npm run build",
+        "export": "next build && next export"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "Bosar Dashboard - A web app for managing chats with customers",
+    "dependencies": {
+        "@tailwindcss/typography": "^0.5.16",
+        "@types/node": "^22.15.29",
+        "@types/react": "^19.1.6",
+        "@types/react-dom": "^19.1.5",
+        "autoprefixer": "^10.4.21",
+        "next": "^15.3.3",
+        "postcss": "^8.5.4",
+        "react": "^19.1.0",
+        "react-dom": "^19.1.0",
+        "react-markdown": "^10.1.0",
+        "remark-gfm": "^4.0.1",
+        "socket.io-client": "^4.8.1",
+        "tailwindcss": "^3.4.17",
+        "typescript": "^5.8.3"
+    },
+    "devDependencies": {
+        "eslint": "^9.28.0",
+        "eslint-config-next": "^15.3.3"
+    }
+}
