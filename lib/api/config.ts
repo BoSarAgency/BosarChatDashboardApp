@@ -1,4 +1,4 @@
-// API Configuration for ACGQ Dashboard
+// API Configuration for bosar Dashboard
 // Based on the NestJS backend API endpoints
 
 // Environment-aware API URL configuration

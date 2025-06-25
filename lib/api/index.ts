@@ -1,4 +1,4 @@
-// ACGQ API - Main export file
+// bosar API - Main export file
 // Centralized exports for all API utilities
 
 // Configuration

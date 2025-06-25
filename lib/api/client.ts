@@ -1,4 +1,4 @@
-// API Client for ACGQ Dashboard
+// API Client for bosar Dashboard
 // Centralized HTTP client with all API endpoints
 
 import { API_CONFIG, API_ENDPOINTS, HTTP_METHODS, STATUS_CODES } from './config';
@@ -63,18 +63,18 @@ class ApiClient {
         console.log('🌐 Detecting API URL for hostname:', hostname);
 
         // Production environment
-        if (hostname.includes('acgq.click') || hostname.includes('amplifyapp.com')) {
-            console.log('🚀 Production environment detected, updating to: https://api.acgq.click');
-            this.baseURL = 'https://api.acgq.click';
+        if (hostname.includes('bosar.click') || hostname.includes('amplifyapp.com')) {
+            console.log('🚀 Production environment detected, updating to: https://api.bosar.click');
+            this.baseURL = 'https://api.bosar.click';
             return;
         }
 
         // Staging environment (if needed in the future)
         if (hostname.includes('staging') || hostname.includes('dev')) {
             console.log(
-                '🧪 Staging environment detected, updating to: https://staging-api.acgq.click',
+                '🧪 Staging environment detected, updating to: https://staging-api.bosar.click',
             );
-            this.baseURL = 'https://staging-api.acgq.click';
+            this.baseURL = 'https://staging-api.bosar.click';
             return;
         }
 

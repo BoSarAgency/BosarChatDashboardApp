@@ -1,4 +1,4 @@
-// React hooks for ACGQ API integration
+// React hooks for bosar API integration
 // Custom hooks for common API operations
 
 import { useCallback, useEffect, useState } from 'react';

@@ -79,8 +79,8 @@ AWS Amplify is the recommended deployment platform for this Next.js application.
 
    **Example values**:
    ```
-   NEXT_PUBLIC_API_BASE_URL=https://api.acgq.click
-   NEXT_PUBLIC_WS_URL=wss://api.acgq.click/chat
+   NEXT_PUBLIC_API_BASE_URL=https://api.bosar.click
+   NEXT_PUBLIC_WS_URL=wss://api.bosar.click/chat
    ```
 
 3. **Important Notes**:
@@ -126,13 +126,13 @@ AWS Amplify is the recommended deployment platform for this Next.js application.
 #### `NEXT_PUBLIC_API_BASE_URL`
 - **Purpose**: Backend API endpoint
 - **Format**: `https://your-api-domain.com`
-- **Example**: `https://api.acgq.click`
+- **Example**: `https://api.bosar.click`
 - **Note**: Must be accessible from the browser (public)
 
 #### `NEXT_PUBLIC_WS_URL`
 - **Purpose**: WebSocket server for real-time chat
 - **Format**: `wss://your-websocket-domain.com/chat`
-- **Example**: `wss://api.acgq.click/chat`
+- **Example**: `wss://api.bosar.click/chat`
 - **Note**: Usually the same domain as API with `/chat` path
 
 ### Auto-Detection Fallback
@@ -140,8 +140,8 @@ AWS Amplify is the recommended deployment platform for this Next.js application.
 If environment variables are not set, the application will:
 1. **Development**: Use `http://localhost:3001`
 2. **Production**: Auto-detect based on hostname:
-   - `*.acgq.click` → `https://api.acgq.click`
-   - `*.amplifyapp.com` → `https://api.acgq.click`
+   - `*.bosar.click` → `https://api.bosar.click`
+   - `*.amplifyapp.com` → `https://api.bosar.click`
 
 ## 🔒 Security Headers
 

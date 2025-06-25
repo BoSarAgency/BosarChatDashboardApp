@@ -1,4 +1,4 @@
-// WebSocket Chat Service for ACGQ Dashboard
+// WebSocket Chat Service for bosar Dashboard
 // Handles real-time messaging using Socket.IO
 
 import { io, Socket } from 'socket.io-client';

@@ -1,4 +1,4 @@
-// TypeScript interfaces for ACGQ API
+// TypeScript interfaces for bosar API
 // Based on the NestJS backend DTOs and Prisma schema
 
 // Common types
