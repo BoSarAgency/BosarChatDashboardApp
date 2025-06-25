@@ -215,7 +215,3 @@ For support and questions:
 - Check the documentation
 - Review the API integration guide
 - Contact the development team
-
----
-
-Built with ❤️ using Next.js and modern web technologies.
